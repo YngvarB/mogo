@@ -48,7 +48,7 @@ hr {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    min-height: 820px;
+    min-height: 600px;
 
     position: relative;
 
@@ -95,11 +95,11 @@ hr {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .header.fixed {
-    padding: 10px 0;
+    /* padding: 10px 0; */
 
     background-color: #eb8d8d;
     opacity: 0.9;
@@ -261,7 +261,8 @@ hr {
     display: inline-block;
     vertical-align: top;
     padding: 8px 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    
 
     border: 3px solid #fff;
 
@@ -270,13 +271,13 @@ hr {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    transition: background-color .1s linear, color .1s linear;
+
+    transition: background .1s linear, color .1s linear;
 }
 
 .btn:hover {
     background-color: #fff;
     color: #fce38a;
-    border: 1px solid #fce38a;
 }
 
 /* Slider */
@@ -520,9 +521,9 @@ hr {
 
 .services__item {
     width: 33.33333%;
-    padding: 0 35px 40px 85px;
+    padding: 0 35px 0px 85px;
     position: relative;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .services__item--border {
@@ -1679,3 +1680,25 @@ border-bottom: 0;
 
 
 } 
+
+
+
+/* JS Styles */
+/* header focus from menu */
+/* .bg-highlight {
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+   }
+   .bg-highlight:before {
+       background-color: #fffe94;
+       bottom: 67%;
+       content: "";
+       height: 15px;
+       left: 0;
+       position: absolute;
+       width: 100%;
+       z-index: -1;
+   } */
+   
