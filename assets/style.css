@@ -400,7 +400,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 80px -15 0;
+    margin: 80px -15px 0; 
 }
 
 .card__item {
